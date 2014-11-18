@@ -13,6 +13,7 @@
 		1743C0E21A1A997800F94C81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1743C0E11A1A997800F94C81 /* Images.xcassets */; };
 		1743C0E51A1A997800F94C81 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1743C0E31A1A997800F94C81 /* LaunchScreen.xib */; };
 		1743C0F11A1A997800F94C81 /* WhatsTheWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1743C0F01A1A997800F94C81 /* WhatsTheWeatherTests.swift */; };
+		1743C0FB1A1A9B1400F94C81 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1743C0FA1A1A9B1400F94C81 /* background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		1743C0EA1A1A997800F94C81 /* WhatsTheWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsTheWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1743C0EF1A1A997800F94C81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1743C0F01A1A997800F94C81 /* WhatsTheWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsTheWeatherTests.swift; sourceTree = "<group>"; };
+		1743C0FA1A1A9B1400F94C81 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				1743C0DA1A1A997800F94C81 /* AppDelegate.swift */,
 				1743C0DC1A1A997800F94C81 /* ViewController.swift */,
 				1743C0DE1A1A997800F94C81 /* Main.storyboard */,
+				1743C0FA1A1A9B1400F94C81 /* background.png */,
 				1743C0E11A1A997800F94C81 /* Images.xcassets */,
 				1743C0E31A1A997800F94C81 /* LaunchScreen.xib */,
 				1743C0D81A1A997800F94C81 /* Supporting Files */,
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1743C0E01A1A997800F94C81 /* Main.storyboard in Resources */,
+				1743C0FB1A1A9B1400F94C81 /* background.png in Resources */,
 				1743C0E51A1A997800F94C81 /* LaunchScreen.xib in Resources */,
 				1743C0E21A1A997800F94C81 /* Images.xcassets in Resources */,
 			);
