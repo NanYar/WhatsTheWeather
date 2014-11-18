@@ -33,7 +33,7 @@ class ViewController: UIViewController
         var cityString = cityTextField.text.capitalizedString
         cityString = cityString.stringByReplacingOccurrencesOfString(" ", withString: "", options: nil, range: nil)
         
-        let urlString = "http://www.weather-forecast.com/locations/" + cityString + "/forecasts/latest"
+        let urlString = "http://de.weather-forecast.com/locations/" + cityString + "/forecasts/latest"
         let url = NSURL(string: urlString)
         
         let task = NSURLSession.sharedSession().dataTaskWithURL(url!)
@@ -52,7 +52,7 @@ class ViewController: UIViewController
                     dispatch_async(dispatch_get_main_queue())
                     {
                         self.weatherMessageLabel.hidden = false
-                        self.weatherMessageLabel.text = cityString + "\n1 – 3 Day Weather Forecast:\n\n" + weatherForecast
+                        self.weatherMessageLabel.text = cityString + "\n1 – 3 Tage Wettervorhersage:\n\n" + weatherForecast
                         self.cityTextField.text = ""
                     }
                 }
